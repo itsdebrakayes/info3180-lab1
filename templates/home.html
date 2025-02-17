@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to My Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Personal Page</h1>
+        <p>Hi there! I'm an aspiring software engineer passionate about coding, design, and innovation.</p>
+        <a href="{{ url_for('about') }}" class="btn">Learn More About Me</a>
+    </div>
+</body>
+</html>
